@@ -1,0 +1,99 @@
+body {
+    background-color: silver;
+  }
+  
+  nav {
+    padding: 10px;
+  }
+  
+  nav,
+  #nav-links {
+    background-color:rgb(125, 125, 146) !important;
+  }
+  
+  nav a {
+    font-size: 20px;
+    color: silver !important;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ffd900 !important;
+    background-color: rgb(125, 125, 146)!important;
+  }
+  
+  nav a:active {
+    background-color: rgb(125, 125, 146)!important;
+  }
+  
+  .portfolio h2 {
+    color: rgb(125, 125, 146);
+  }
+  
+  .hero {
+    padding-top: 20px;
+    background-color: rgb(125, 125, 146);
+  }
+  
+  .hero-body {
+    position: relative;
+    bottom: 50px;
+  }
+  
+  .hero p {
+    color: silver !important;
+  }
+  
+  #headshot {
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    filter: grayscale(100%);
+    margin: inherit;
+  }
+ #headshot:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+  }
+
+  .card {
+    background-color: rgb(250, 248, 248);
+  }
+
+  .card i {
+    color: silver;
+    font-size: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(1.08);
+  }
+
+  footer {
+    background-color: rgb(125, 125, 146);
+  }
+  
+  footer h1 {
+    color: silver !important;
+  }
+  
+  footer i {
+    color: silver;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 100%;
+  }
+  
+  footer i:hover {
+    color: rgb(125, 125, 146);
+    background-color: silver;
+    border: 1px solid rgb(125, 125, 146);
+    border-radius: 100%;
+    transition: 0.25s;
+  }
+  
+  
