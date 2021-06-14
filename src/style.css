@@ -29,6 +29,11 @@ body {
   .portfolio h2 {
     color: rgb(125, 125, 146);
   }
+
+  #aboutMe h2 {
+    color: rgb(125, 125, 146);
+    margin-left: 80px;
+  }
   
   .hero {
     padding-top: 20px;
@@ -69,9 +74,9 @@ body {
     font-size: 40px;
   }
   
-  .card:hover {
+ /* .card:hover {
     transform: scale(1.08);
-  }
+  }*/
 
   footer {
     background-color: rgb(125, 125, 146);

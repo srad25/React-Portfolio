@@ -11,12 +11,12 @@ function PortfolioContainer() {
       >
         <h2 className="title is-2 is-spaced">My Portfolio</h2>
         <p className="subtitle">
-          My complete works can be viewed here:
+          A complete list of my repositories can be seen here:
           <a href="https://github.com/srad25" target="_blank" rel="noopener">
             GitHub
           </a>
         </p>
-        <div className="columns">
+        <div className="columns is-multiline">
           <PortfolioCard
             title="Dogwalker"
             deployed="https://dogwalkerapp.herokuapp.com"
@@ -28,7 +28,7 @@ function PortfolioContainer() {
             title="Book Hunt"
             deployed="https://srad25.github.io/Book-Hunt"
             image="/assets/images/bkhunt.png"
-            description="Designed with avid readers in mind, a one stop shop application that provides the user with a number of choices to find the prefect book from the comfort of their own homes. Users can also save a book to their wishlist and return to it at a later date. Books can also be deleted from the list."
+            description="Designed with avid readers in mind, a one stop shop application that provides the user with a number of choices to find the prefect book, with option to buy. Users can also save a book to their wishlist and return to it at a later date. Books can also be deleted from the list."
             github="https://github.com/srad25/Book-Hunt"
           />
           <PortfolioCard
@@ -42,16 +42,14 @@ function PortfolioContainer() {
             title="Weather Dashboard"
             deployed="https://srad25.github.io/WeatherDashboard/"
             image="/assets/images/fiveDay.png"
-            description="This application allows the user to view the current weather in any named city. The app will also display the next five days forecast so that the user can know the up coming weather in that area and plan accordingly. Previous searches are easily accessed from the search bar."
+            description="This app allows the user to view the current weather in any named city. The app will also display the next five days forecast so that the user can know the up coming weather in that area and plan accordingly. Previous searches are stored and easily accessed from the search bar."
             github="https://www.github.com/srad25/weatherDashboard"
           />
           <PortfolioCard
             title="Quiz Game"
             deployed="https://srad25.github.io/Quiz-Game"
             image="/assets/images/codeQuizStart.png"
-            description="An interactive quiz. The user will get ten seconds added to their time with each correct
-            answer, but if their answer is incorrect they will get ten seconds subtracted from their
-            score. The user will have the option of storing their score at the end of the quiz."
+            description="An interactive quiz. Ten seconds is added to time with each correct answer, an incorrect response will get ten seconds subtracted from score. Highscores can be saved at the end of quiz."
             github="https://github.com/srad25/Quiz-Game"
           />
           <PortfolioCard

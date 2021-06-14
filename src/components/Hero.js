@@ -7,18 +7,18 @@ function Hero() {
         <div className="hero-body">
           <div className="columns is-centered has-centered-text">
             <div className="column is-6">
-              <p className="title is-1 is-spaced">Hello, my name is Suzanne</p>
-              <p className="subtitle">Aspiring Full Stack Web Developer!</p>
+              <p className="title is-1 is-spaced">Hi there, my name is Suzanne!</p>
+              <p className="subtitle">Aspiring Full Stack Web Developer</p>
               <p className="pb-5">
               I have always worked and thrived in a team environment. I excel at multi-tasking and staying organized while keeping a level head under pressure. 
               </p>
               <a href="/assets/SueResume.pdf" download="Resume">
-                <button className="button is-link is-light is-rounded mb-2 mr-1">
+                <button className="button is-white is-rounded mt-1">
                   Download My Resume
                 </button>
               </a>
               <a href="mailto:suzanne.radlein@gmail.com" target="_blank">
-                <button className="button is-link is-light is-rounded ml-1">
+                <button className="button is-white is-rounded mt-1 ml-2">
                   Send an Email
                 </button>
               </a>
