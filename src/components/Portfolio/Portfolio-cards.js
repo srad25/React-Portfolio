@@ -3,7 +3,7 @@ import React from "react";
 function PortfolioCard(props) {
   return (
     <React.Fragment>
-      <div className="column is-3">
+      <div className="column is-4">
         <div className="card">
           <div className="card-header">
             <p className="card-header-title">{props.title}</p>
@@ -11,7 +11,7 @@ function PortfolioCard(props) {
           <div className="card-image">
             <figure className="image is-4by3">
               <a href={props.deployed} target="_blank" rel="noreferrer">
-                <img src={props.image} alt="Project Image" />
+                <img src={props.image} alt="Project Image"/>
               </a>
             </figure>
           </div>
@@ -22,7 +22,7 @@ function PortfolioCard(props) {
             <div className="card-footer-item">
               <a href={props.deployed} target="_blank" rel="noreferrer"
               >
-                <i class="fas fa-play-circle"></i>
+                <i className="fas fa-play-circle"></i>
               </a>
             </div>
             <div className="card-footer-item">

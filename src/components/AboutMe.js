@@ -11,7 +11,7 @@ function AboutMe() {
               <div className="image">
                 <img
                   className="is-rounded"
-                  src="/assets/images/sue.jpg"
+                  src={process.env.PUBLIC_URL + "/assets/images/sue.jpg"}
                   alt="headshot"
                   id="headshot"
                 />
