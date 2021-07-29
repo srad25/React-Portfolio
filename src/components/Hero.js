@@ -12,7 +12,7 @@ function Hero() {
               <p className="pb-5">
               I have always worked and thrived in a team environment. I excel at multi-tasking and staying organized while keeping a level head under pressure. 
               </p>
-              <a href="/assets/SueResume.pdf" download="Resume">
+              <a href="/assets/SueResume" download="Resume">
                 <button className="button is-white is-rounded mt-1">
                   Download My Resume
                 </button>
