@@ -20,7 +20,7 @@ function AboutMe() {
             <div className="column"></div>
             <div className="column is-7">
               <p className="pb-5">
-                My name is Suzanne Radlein. I live in Stamford, Connecticut, with my husband and a precocious four year old that keeps me on my toes.
+                My name is Suzanne Radlein. I live in Stamford, Connecticut, with my husband.
                 For most of my adult life I've worked in the Restaurant Industry, I started in the business as a waitress and years later when it ended I was the General Manager of a bustling downtown restaurant. 
                 I have always worked and thrived in a team environment. I excel at multi-tasking and staying organized while keeping a level head under pressure. Technology is the future and becoming a web developer puts me in the middle of that growth. I am excited about the possibilities and the fact that there is always something new to learn. 
                 Over the past few months I have been attending a Full Stack Web Development Bootcamp certified by the University of Connecticut. I have since then developed a working knowledge of HTML, CSS, JavaScript, JQuery, Node.js, MySql, MongoDb and React.
